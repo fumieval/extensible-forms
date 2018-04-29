@@ -26,6 +26,8 @@ dependencies:
 - text
 - bytestring
 - optional-args
+- lens
+- shakespeare
 
 library:
   source-dirs: src
