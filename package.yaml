@@ -28,6 +28,9 @@ dependencies:
 - optional-args
 - lens
 - shakespeare
+- unordered-containers
+- either
+- http-types
 
 library:
   source-dirs: src
@@ -49,6 +52,9 @@ executables:
     - -with-rtsopts=-N
     dependencies:
     - extensible-forms
+    - warp
+    - wai
+    - wai-extra
 
 tests:
   extensible-forms-test:

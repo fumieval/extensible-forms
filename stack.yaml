@@ -39,7 +39,9 @@ packages:
 - .
 # Dependency packages to be pulled from upstream that are not in the resolver
 # (e.g., acme-missiles-0.3)
-# extra-deps: []
+extra-deps:
+- git: https://github.com/fumieval/extensible.git
+  commit: a99b2394c19abea661973190d92ec97b4895bcb2
 
 # Override default flag values for local packages and extra-deps
 # flags: {}
